@@ -1,0 +1,673 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] /home/gamerx/.gradle/caches/8.13/transforms/75b8e7efc90dc64baf8c57005258ff55/transformed/navigation-common-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/gamerx/.gradle/caches/8.13/transforms/911426cf8a927ea5f560c3baadbda047/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /home/gamerx/.gradle/caches/8.13/transforms/3fdb63613834d228bbb8f3dc8fb9082d/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /home/gamerx/.gradle/caches/8.13/transforms/23d7feb05c5048d745a165c685ebfa19/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /home/gamerx/.gradle/caches/8.13/transforms/5594109f96f90ca2a04f9b13ab23ea7e/transformed/navigation-compose-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/gamerx/.gradle/caches/8.13/transforms/a2f4011f071342890332361f3c607196/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [io.coil-kt:coil-compose:2.7.0] /home/gamerx/.gradle/caches/8.13/transforms/67b87e85e5dabfae5e4e32bf27693f67/transformed/coil-compose-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] /home/gamerx/.gradle/caches/8.13/transforms/d3d0dd178339836585536b2b1dd31d44/transformed/coil-compose-base-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/f2b96f6d9674e5bfe4b3d74027404ed9/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/316b36b2eb7647d1556baca9f1618308/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/9cfafbb2d7cee88abd3b1e99442f12c1/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/957e797dcc9cf2049ee101b602613eb8/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/e24e7e51e28b0ce209d9be3846fa6ed1/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/8e2da871a4c5a98ce0b856ce327ff644/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/05dd2e565a27449fc78e58c633408f70/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/79932c8f6200807a79fa189fe2446488/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/24313f5e64841484c6cdcbf7ee01f840/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/bb8e3cd267cb077a68d18832b28cd51f/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/c41bfe16d299c9b90178eda10f7c11f3/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/b55be18194c0241cd6d392e4f5d48e77/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/4426903868ad9d6c2e3e2ee4068ea268/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/f4f6b7928bf90ccc4eab5decae989df4/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/134971fdd8b60bb15dc32845a838ac3e/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.animation:animation-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/cc4598c2443da39b36bc2885d93a2177/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/gamerx/.gradle/caches/8.13/transforms/5aef2d09d15424e26adc84f968ae6438/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:17:1-23:12
+MERGED from [io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/bff26afbb0866f29552a4218bea118d6/transformed/googleid-1.1.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/12a103deb81e5d35bf7b300e2db12103/transformed/credentials-1.3.0-beta01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] /home/gamerx/.gradle/caches/8.13/transforms/04fce3521f792cc1c4ebf607937c3097/transformed/play-services-fido-21.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /home/gamerx/.gradle/caches/8.13/transforms/847b160169688f52e212d099cc60c893/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /home/gamerx/.gradle/caches/8.13/transforms/bb8db9bfc945f25637a1b9c6adbe67f9/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/5ae0687bb0767942abbf628134e4e80e/transformed/play-services-base-18.3.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/gamerx/.gradle/caches/8.13/transforms/9aa56275699c005113ab045cad10e071/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/bf59764969dac5b83f6fa180b4cf1801/transformed/play-services-basement-18.3.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.7] /home/gamerx/.gradle/caches/8.13/transforms/50399c46509e3c6668c2adf6804be11c/transformed/fragment-1.5.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.2] /home/gamerx/.gradle/caches/8.13/transforms/cfd83ce5d36b8e813ef7e1888dace01d/transformed/activity-1.9.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.2] /home/gamerx/.gradle/caches/8.13/transforms/78b4a3f2ca3eff5a1df1cbdd49faadea/transformed/activity-ktx-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.2] /home/gamerx/.gradle/caches/8.13/transforms/9043cd6b5acd7f4858ccb16c762b7363/transformed/activity-compose-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [io.github.jan-tennert.supabase:postgrest-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/d4cee3213a51607f132ecf75789e714a/transformed/postgrest-kt-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [io.github.jan-tennert.supabase:auth-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/f76014756a8ba72cae59b9c4ae6641f6/transformed/auth-kt-debug/AndroidManifest.xml:2:1-20:12
+MERGED from [io.github.jan-tennert.supabase:supabase-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/0f746a22595abadf8594fda59cbfc19c/transformed/supabase-kt-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/gamerx/.gradle/caches/8.13/transforms/9637f6b2614b0b60379590ae874c4bd0/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [io.coil-kt:coil:2.7.0] /home/gamerx/.gradle/caches/8.13/transforms/6f9333c7876a1332514cd2ffe9dcb280/transformed/coil-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.7.0] /home/gamerx/.gradle/caches/8.13/transforms/9bba7742dc60b0bf8bd6169a90653b7b/transformed/coil-base-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/gamerx/.gradle/caches/8.13/transforms/762ede7209a228bda984b8d23026fc20/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/gamerx/.gradle/caches/8.13/transforms/d9a5cb64a33f09efa271b6fc86eee953/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/373eafc8617297cabcacc0117a654ae6/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/b65491273c73cf6b8294a0834f83d9ad/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/172dcb8992401e054aba9d924c5acafd/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/47ff2e626eabb27232cad27573f85dc9/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/1d644d55e25ae78e95fb9965305476da/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/6454d546b29c299ce07bf727f1ed3b5c/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/532bdba2c4bdd6c088df03c6e8387797/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/9cc2ba1f2cea386589d84123b4f3015e/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/a660bfe696b4f31aa8c4398d8f7933e9/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/11adba284a5c33c3a93585c99f885c7a/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.8.0] /home/gamerx/.gradle/caches/8.13/transforms/fd877617be2c9fa80bbbd0794d4e2ee4/transformed/browser-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/gamerx/.gradle/caches/8.13/transforms/fc42bb79cd54e084d8d6d91a73b901cf/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/gamerx/.gradle/caches/8.13/transforms/466651fd7d50eff4766c8aded9f93111/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/gamerx/.gradle/caches/8.13/transforms/9ca6f86dbaf1dc4e6bc1cf0c0a9f349d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/2355ebe59fbac41570b5eaf517b91d00/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/c668906ca9f74c3f57d52a83685c81d9/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/1801388dcb61fee74854da50878fe496/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/4962da149af1a870b58bf3e77aef9f2c/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-splashscreen:1.0.1] /home/gamerx/.gradle/caches/8.13/transforms/147ad6588ff96b47e42e59db14076299/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/gamerx/.gradle/caches/8.13/transforms/9ed7ea581521e77f61947fb7baf8d700/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/gamerx/.gradle/caches/8.13/transforms/c68da459891311375f09c3f9d23d4c60/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/1e7b007f517815dc34add9ec63db9b51/transformed/datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/cab5ccfa8b5c80ad0ff941bd32072430/transformed/datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/6c679536243465878d68d63d376e7ff6/transformed/datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [com.mikepenz:multiplatform-markdown-renderer-m3-android:0.24.0] /home/gamerx/.gradle/caches/8.13/transforms/dd9ae84f48f99abc5e6d69231b775cbc/transformed/multiplatform-markdown-renderer-m3-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.mikepenz:multiplatform-markdown-renderer-android:0.24.0] /home/gamerx/.gradle/caches/8.13/transforms/ca6cc8a2ed6a17bd7921bf20c413cd5b/transformed/multiplatform-markdown-renderer-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/gamerx/.gradle/caches/8.13/transforms/e987d30461efb7a6afa9230a06946aa1/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/a266cda205135f05c5514691fa77cc20/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/8ac34144c0b81faaa2c0967a9974f3c0/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ab496f1439ac37cccfa82b8813bf1b6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/10a289bd8a82b9a119be7c0abb659d83/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:17:1-35:12
+MERGED from [com.russhwolf:multiplatform-settings-coroutines-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/3bb23a88d23c4cb7778aa5da4318fadb/transformed/multiplatform-settings-coroutines-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mediapipe:tasks-genai:0.10.14] /home/gamerx/.gradle/caches/8.13/transforms/320d5a8b66d0878dbc03c28d6d09ace0/transformed/tasks-genai-0.10.14/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/gamerx/.gradle/caches/8.13/transforms/90fbd964dd25e1f5cf702804ca91f2b3/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/39155f8580d1a1e2aebd0032b3c703dc/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.mediapipe:tasks-core:0.10.14] /home/gamerx/.gradle/caches/8.13/transforms/d4a0d8205fb38b130e3300d9872c6411/transformed/tasks-core-0.10.14/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/4ae32b6ec1a0660f285ae0eaa7efb173/transformed/transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/b78fd41d469703e1dd3fa3883572d71a/transformed/startup-runtime-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/gamerx/.gradle/caches/8.13/transforms/3f320f7948570317e8617800c6d99f3f/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/gamerx/.gradle/caches/8.13/transforms/9c66eb63616f8e36817a777e066149fc/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/f7a7e4be1a4adf4d5db6377560a1fd7e/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/a10bd5c90cb88823e5eedf7a66193bfc/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/fefd50a3a9fc9cd9fee79a27c29536ef/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/6eb06a04a4c98a16c6f4e197296c00ae/transformed/multiplatform-settings-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [co.touchlab:kermit-android-debug:2.0.4] /home/gamerx/.gradle/caches/8.13/transforms/e21f9a137ee046fa109c7b7ecffb4733/transformed/kermit-debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.soywiz.korlibs.krypto:krypto-android:4.0.10] /home/gamerx/.gradle/caches/8.13/transforms/74d88270071977af0f9fd94af3ab1679/transformed/krypto-debug/AndroidManifest.xml:2:1-9:12
+MERGED from [co.touchlab:kermit-core-android-debug:2.0.4] /home/gamerx/.gradle/caches/8.13/transforms/6104b65569660e15f411161a183d6935/transformed/kermit-core-debug/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.CAMERA
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:7:22-62
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:8:22-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:9:5-10:38
+	android:maxSdkVersion
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:10:9-35
+	android:name
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:9:22-77
+application
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:12:5-40:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/134971fdd8b60bb15dc32845a838ac3e/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/134971fdd8b60bb15dc32845a838ac3e/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:8:5-18:19
+MERGED from [io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:8:5-18:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] /home/gamerx/.gradle/caches/8.13/transforms/04fce3521f792cc1c4ebf607937c3097/transformed/play-services-fido-21.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] /home/gamerx/.gradle/caches/8.13/transforms/04fce3521f792cc1c4ebf607937c3097/transformed/play-services-fido-21.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/5ae0687bb0767942abbf628134e4e80e/transformed/play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/5ae0687bb0767942abbf628134e4e80e/transformed/play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/gamerx/.gradle/caches/8.13/transforms/9aa56275699c005113ab045cad10e071/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/gamerx/.gradle/caches/8.13/transforms/9aa56275699c005113ab045cad10e071/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/bf59764969dac5b83f6fa180b4cf1801/transformed/play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/bf59764969dac5b83f6fa180b4cf1801/transformed/play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [io.github.jan-tennert.supabase:auth-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/f76014756a8ba72cae59b9c4ae6641f6/transformed/auth-kt-debug/AndroidManifest.xml:8:5-18:19
+MERGED from [io.github.jan-tennert.supabase:auth-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/f76014756a8ba72cae59b9c4ae6641f6/transformed/auth-kt-debug/AndroidManifest.xml:8:5-18:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/gamerx/.gradle/caches/8.13/transforms/9637f6b2614b0b60379590ae874c4bd0/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/gamerx/.gradle/caches/8.13/transforms/9637f6b2614b0b60379590ae874c4bd0/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/532bdba2c4bdd6c088df03c6e8387797/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/532bdba2c4bdd6c088df03c6e8387797/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/1801388dcb61fee74854da50878fe496/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/1801388dcb61fee74854da50878fe496/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ab496f1439ac37cccfa82b8813bf1b6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ab496f1439ac37cccfa82b8813bf1b6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/10a289bd8a82b9a119be7c0abb659d83/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:23:5-33:19
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/10a289bd8a82b9a119be7c0abb659d83/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/b78fd41d469703e1dd3fa3883572d71a/transformed/startup-runtime-1.2.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.startup:startup-runtime:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/b78fd41d469703e1dd3fa3883572d71a/transformed/startup-runtime-1.2.0/AndroidManifest.xml:23:5-29:19
+	android:extractNativeLibs
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:20:9-41
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:19:9-46
+	android:networkSecurityConfig
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:21:9-69
+	android:name
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:13:9-44
+activity#com.gamerx.ai.MainActivity
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:23:9-38:20
+	android:windowSoftInputMode
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:27:13-55
+	android:exported
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:25:13-36
+	android:theme
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:26:13-57
+	android:name
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:24:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:28:13-31:29
+action#android.intent.action.MAIN
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:30:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:login-callback+data:scheme:gamerx
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:32:13-37:29
+action#android.intent.action.VIEW
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:33:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:34:17-76
+	android:name
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:34:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:35:17-78
+	android:name
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:35:27-75
+data
+ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:36:17-79
+	android:host
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:36:47-76
+	android:scheme
+		ADDED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:36:23-46
+uses-sdk
+INJECTED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml
+INJECTED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-common:2.7.7] /home/gamerx/.gradle/caches/8.13/transforms/75b8e7efc90dc64baf8c57005258ff55/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /home/gamerx/.gradle/caches/8.13/transforms/75b8e7efc90dc64baf8c57005258ff55/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/gamerx/.gradle/caches/8.13/transforms/911426cf8a927ea5f560c3baadbda047/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/gamerx/.gradle/caches/8.13/transforms/911426cf8a927ea5f560c3baadbda047/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /home/gamerx/.gradle/caches/8.13/transforms/3fdb63613834d228bbb8f3dc8fb9082d/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /home/gamerx/.gradle/caches/8.13/transforms/3fdb63613834d228bbb8f3dc8fb9082d/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /home/gamerx/.gradle/caches/8.13/transforms/23d7feb05c5048d745a165c685ebfa19/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /home/gamerx/.gradle/caches/8.13/transforms/23d7feb05c5048d745a165c685ebfa19/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /home/gamerx/.gradle/caches/8.13/transforms/5594109f96f90ca2a04f9b13ab23ea7e/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /home/gamerx/.gradle/caches/8.13/transforms/5594109f96f90ca2a04f9b13ab23ea7e/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/gamerx/.gradle/caches/8.13/transforms/a2f4011f071342890332361f3c607196/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] /home/gamerx/.gradle/caches/8.13/transforms/a2f4011f071342890332361f3c607196/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] /home/gamerx/.gradle/caches/8.13/transforms/67b87e85e5dabfae5e4e32bf27693f67/transformed/coil-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] /home/gamerx/.gradle/caches/8.13/transforms/67b87e85e5dabfae5e4e32bf27693f67/transformed/coil-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] /home/gamerx/.gradle/caches/8.13/transforms/d3d0dd178339836585536b2b1dd31d44/transformed/coil-compose-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] /home/gamerx/.gradle/caches/8.13/transforms/d3d0dd178339836585536b2b1dd31d44/transformed/coil-compose-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/f2b96f6d9674e5bfe4b3d74027404ed9/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/f2b96f6d9674e5bfe4b3d74027404ed9/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/316b36b2eb7647d1556baca9f1618308/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/316b36b2eb7647d1556baca9f1618308/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/9cfafbb2d7cee88abd3b1e99442f12c1/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/9cfafbb2d7cee88abd3b1e99442f12c1/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/957e797dcc9cf2049ee101b602613eb8/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/957e797dcc9cf2049ee101b602613eb8/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/e24e7e51e28b0ce209d9be3846fa6ed1/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/e24e7e51e28b0ce209d9be3846fa6ed1/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/8e2da871a4c5a98ce0b856ce327ff644/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/8e2da871a4c5a98ce0b856ce327ff644/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/05dd2e565a27449fc78e58c633408f70/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/05dd2e565a27449fc78e58c633408f70/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/79932c8f6200807a79fa189fe2446488/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/79932c8f6200807a79fa189fe2446488/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/24313f5e64841484c6cdcbf7ee01f840/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/24313f5e64841484c6cdcbf7ee01f840/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/bb8e3cd267cb077a68d18832b28cd51f/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/bb8e3cd267cb077a68d18832b28cd51f/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/c41bfe16d299c9b90178eda10f7c11f3/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/c41bfe16d299c9b90178eda10f7c11f3/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/b55be18194c0241cd6d392e4f5d48e77/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/b55be18194c0241cd6d392e4f5d48e77/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/4426903868ad9d6c2e3e2ee4068ea268/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/4426903868ad9d6c2e3e2ee4068ea268/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/f4f6b7928bf90ccc4eab5decae989df4/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/f4f6b7928bf90ccc4eab5decae989df4/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/134971fdd8b60bb15dc32845a838ac3e/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/134971fdd8b60bb15dc32845a838ac3e/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/cc4598c2443da39b36bc2885d93a2177/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/cc4598c2443da39b36bc2885d93a2177/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/gamerx/.gradle/caches/8.13/transforms/5aef2d09d15424e26adc84f968ae6438/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /home/gamerx/.gradle/caches/8.13/transforms/5aef2d09d15424e26adc84f968ae6438/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:6:5-44
+MERGED from [io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/bff26afbb0866f29552a4218bea118d6/transformed/googleid-1.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/bff26afbb0866f29552a4218bea118d6/transformed/googleid-1.1.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/12a103deb81e5d35bf7b300e2db12103/transformed/credentials-1.3.0-beta01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/12a103deb81e5d35bf7b300e2db12103/transformed/credentials-1.3.0-beta01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] /home/gamerx/.gradle/caches/8.13/transforms/04fce3521f792cc1c4ebf607937c3097/transformed/play-services-fido-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:21.0.0] /home/gamerx/.gradle/caches/8.13/transforms/04fce3521f792cc1c4ebf607937c3097/transformed/play-services-fido-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /home/gamerx/.gradle/caches/8.13/transforms/847b160169688f52e212d099cc60c893/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /home/gamerx/.gradle/caches/8.13/transforms/847b160169688f52e212d099cc60c893/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /home/gamerx/.gradle/caches/8.13/transforms/bb8db9bfc945f25637a1b9c6adbe67f9/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /home/gamerx/.gradle/caches/8.13/transforms/bb8db9bfc945f25637a1b9c6adbe67f9/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/5ae0687bb0767942abbf628134e4e80e/transformed/play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/5ae0687bb0767942abbf628134e4e80e/transformed/play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/gamerx/.gradle/caches/8.13/transforms/9aa56275699c005113ab045cad10e071/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/gamerx/.gradle/caches/8.13/transforms/9aa56275699c005113ab045cad10e071/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/bf59764969dac5b83f6fa180b4cf1801/transformed/play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/bf59764969dac5b83f6fa180b4cf1801/transformed/play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.7] /home/gamerx/.gradle/caches/8.13/transforms/50399c46509e3c6668c2adf6804be11c/transformed/fragment-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] /home/gamerx/.gradle/caches/8.13/transforms/50399c46509e3c6668c2adf6804be11c/transformed/fragment-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.2] /home/gamerx/.gradle/caches/8.13/transforms/cfd83ce5d36b8e813ef7e1888dace01d/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] /home/gamerx/.gradle/caches/8.13/transforms/cfd83ce5d36b8e813ef7e1888dace01d/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /home/gamerx/.gradle/caches/8.13/transforms/78b4a3f2ca3eff5a1df1cbdd49faadea/transformed/activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /home/gamerx/.gradle/caches/8.13/transforms/78b4a3f2ca3eff5a1df1cbdd49faadea/transformed/activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] /home/gamerx/.gradle/caches/8.13/transforms/9043cd6b5acd7f4858ccb16c762b7363/transformed/activity-compose-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] /home/gamerx/.gradle/caches/8.13/transforms/9043cd6b5acd7f4858ccb16c762b7363/transformed/activity-compose-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [io.github.jan-tennert.supabase:postgrest-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/d4cee3213a51607f132ecf75789e714a/transformed/postgrest-kt-debug/AndroidManifest.xml:5:5-44
+MERGED from [io.github.jan-tennert.supabase:postgrest-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/d4cee3213a51607f132ecf75789e714a/transformed/postgrest-kt-debug/AndroidManifest.xml:5:5-44
+MERGED from [io.github.jan-tennert.supabase:auth-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/f76014756a8ba72cae59b9c4ae6641f6/transformed/auth-kt-debug/AndroidManifest.xml:6:5-44
+MERGED from [io.github.jan-tennert.supabase:auth-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/f76014756a8ba72cae59b9c4ae6641f6/transformed/auth-kt-debug/AndroidManifest.xml:6:5-44
+MERGED from [io.github.jan-tennert.supabase:supabase-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/0f746a22595abadf8594fda59cbfc19c/transformed/supabase-kt-debug/AndroidManifest.xml:5:5-44
+MERGED from [io.github.jan-tennert.supabase:supabase-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/0f746a22595abadf8594fda59cbfc19c/transformed/supabase-kt-debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/gamerx/.gradle/caches/8.13/transforms/9637f6b2614b0b60379590ae874c4bd0/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/gamerx/.gradle/caches/8.13/transforms/9637f6b2614b0b60379590ae874c4bd0/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [io.coil-kt:coil:2.7.0] /home/gamerx/.gradle/caches/8.13/transforms/6f9333c7876a1332514cd2ffe9dcb280/transformed/coil-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] /home/gamerx/.gradle/caches/8.13/transforms/6f9333c7876a1332514cd2ffe9dcb280/transformed/coil-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] /home/gamerx/.gradle/caches/8.13/transforms/9bba7742dc60b0bf8bd6169a90653b7b/transformed/coil-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] /home/gamerx/.gradle/caches/8.13/transforms/9bba7742dc60b0bf8bd6169a90653b7b/transformed/coil-base-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/gamerx/.gradle/caches/8.13/transforms/762ede7209a228bda984b8d23026fc20/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/gamerx/.gradle/caches/8.13/transforms/762ede7209a228bda984b8d23026fc20/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/gamerx/.gradle/caches/8.13/transforms/d9a5cb64a33f09efa271b6fc86eee953/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/gamerx/.gradle/caches/8.13/transforms/d9a5cb64a33f09efa271b6fc86eee953/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/373eafc8617297cabcacc0117a654ae6/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/373eafc8617297cabcacc0117a654ae6/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/b65491273c73cf6b8294a0834f83d9ad/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/b65491273c73cf6b8294a0834f83d9ad/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/172dcb8992401e054aba9d924c5acafd/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/172dcb8992401e054aba9d924c5acafd/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/47ff2e626eabb27232cad27573f85dc9/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/47ff2e626eabb27232cad27573f85dc9/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/1d644d55e25ae78e95fb9965305476da/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/1d644d55e25ae78e95fb9965305476da/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/6454d546b29c299ce07bf727f1ed3b5c/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/6454d546b29c299ce07bf727f1ed3b5c/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/532bdba2c4bdd6c088df03c6e8387797/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/532bdba2c4bdd6c088df03c6e8387797/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/9cc2ba1f2cea386589d84123b4f3015e/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/9cc2ba1f2cea386589d84123b4f3015e/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/a660bfe696b4f31aa8c4398d8f7933e9/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/a660bfe696b4f31aa8c4398d8f7933e9/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/11adba284a5c33c3a93585c99f885c7a/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/11adba284a5c33c3a93585c99f885c7a/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.8.0] /home/gamerx/.gradle/caches/8.13/transforms/fd877617be2c9fa80bbbd0794d4e2ee4/transformed/browser-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] /home/gamerx/.gradle/caches/8.13/transforms/fd877617be2c9fa80bbbd0794d4e2ee4/transformed/browser-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/gamerx/.gradle/caches/8.13/transforms/fc42bb79cd54e084d8d6d91a73b901cf/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/gamerx/.gradle/caches/8.13/transforms/fc42bb79cd54e084d8d6d91a73b901cf/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/gamerx/.gradle/caches/8.13/transforms/466651fd7d50eff4766c8aded9f93111/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/gamerx/.gradle/caches/8.13/transforms/466651fd7d50eff4766c8aded9f93111/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/gamerx/.gradle/caches/8.13/transforms/9ca6f86dbaf1dc4e6bc1cf0c0a9f349d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/gamerx/.gradle/caches/8.13/transforms/9ca6f86dbaf1dc4e6bc1cf0c0a9f349d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/2355ebe59fbac41570b5eaf517b91d00/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/2355ebe59fbac41570b5eaf517b91d00/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/c668906ca9f74c3f57d52a83685c81d9/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/c668906ca9f74c3f57d52a83685c81d9/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/1801388dcb61fee74854da50878fe496/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/1801388dcb61fee74854da50878fe496/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/4962da149af1a870b58bf3e77aef9f2c/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/4962da149af1a870b58bf3e77aef9f2c/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-splashscreen:1.0.1] /home/gamerx/.gradle/caches/8.13/transforms/147ad6588ff96b47e42e59db14076299/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] /home/gamerx/.gradle/caches/8.13/transforms/147ad6588ff96b47e42e59db14076299/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/gamerx/.gradle/caches/8.13/transforms/9ed7ea581521e77f61947fb7baf8d700/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/gamerx/.gradle/caches/8.13/transforms/9ed7ea581521e77f61947fb7baf8d700/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/gamerx/.gradle/caches/8.13/transforms/c68da459891311375f09c3f9d23d4c60/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/gamerx/.gradle/caches/8.13/transforms/c68da459891311375f09c3f9d23d4c60/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/1e7b007f517815dc34add9ec63db9b51/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/1e7b007f517815dc34add9ec63db9b51/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/cab5ccfa8b5c80ad0ff941bd32072430/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/cab5ccfa8b5c80ad0ff941bd32072430/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/6c679536243465878d68d63d376e7ff6/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/6c679536243465878d68d63d376e7ff6/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [com.mikepenz:multiplatform-markdown-renderer-m3-android:0.24.0] /home/gamerx/.gradle/caches/8.13/transforms/dd9ae84f48f99abc5e6d69231b775cbc/transformed/multiplatform-markdown-renderer-m3-release/AndroidManifest.xml:5:5-44
+MERGED from [com.mikepenz:multiplatform-markdown-renderer-m3-android:0.24.0] /home/gamerx/.gradle/caches/8.13/transforms/dd9ae84f48f99abc5e6d69231b775cbc/transformed/multiplatform-markdown-renderer-m3-release/AndroidManifest.xml:5:5-44
+MERGED from [com.mikepenz:multiplatform-markdown-renderer-android:0.24.0] /home/gamerx/.gradle/caches/8.13/transforms/ca6cc8a2ed6a17bd7921bf20c413cd5b/transformed/multiplatform-markdown-renderer-release/AndroidManifest.xml:5:5-44
+MERGED from [com.mikepenz:multiplatform-markdown-renderer-android:0.24.0] /home/gamerx/.gradle/caches/8.13/transforms/ca6cc8a2ed6a17bd7921bf20c413cd5b/transformed/multiplatform-markdown-renderer-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/gamerx/.gradle/caches/8.13/transforms/e987d30461efb7a6afa9230a06946aa1/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/gamerx/.gradle/caches/8.13/transforms/e987d30461efb7a6afa9230a06946aa1/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/a266cda205135f05c5514691fa77cc20/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/a266cda205135f05c5514691fa77cc20/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/8ac34144c0b81faaa2c0967a9974f3c0/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/8ac34144c0b81faaa2c0967a9974f3c0/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ab496f1439ac37cccfa82b8813bf1b6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ab496f1439ac37cccfa82b8813bf1b6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/10a289bd8a82b9a119be7c0abb659d83/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:21:5-44
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/10a289bd8a82b9a119be7c0abb659d83/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:21:5-44
+MERGED from [com.russhwolf:multiplatform-settings-coroutines-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/3bb23a88d23c4cb7778aa5da4318fadb/transformed/multiplatform-settings-coroutines-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.russhwolf:multiplatform-settings-coroutines-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/3bb23a88d23c4cb7778aa5da4318fadb/transformed/multiplatform-settings-coroutines-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mediapipe:tasks-genai:0.10.14] /home/gamerx/.gradle/caches/8.13/transforms/320d5a8b66d0878dbc03c28d6d09ace0/transformed/tasks-genai-0.10.14/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.mediapipe:tasks-genai:0.10.14] /home/gamerx/.gradle/caches/8.13/transforms/320d5a8b66d0878dbc03c28d6d09ace0/transformed/tasks-genai-0.10.14/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/gamerx/.gradle/caches/8.13/transforms/90fbd964dd25e1f5cf702804ca91f2b3/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/gamerx/.gradle/caches/8.13/transforms/90fbd964dd25e1f5cf702804ca91f2b3/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/39155f8580d1a1e2aebd0032b3c703dc/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/39155f8580d1a1e2aebd0032b3c703dc/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.mediapipe:tasks-core:0.10.14] /home/gamerx/.gradle/caches/8.13/transforms/d4a0d8205fb38b130e3300d9872c6411/transformed/tasks-core-0.10.14/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.mediapipe:tasks-core:0.10.14] /home/gamerx/.gradle/caches/8.13/transforms/d4a0d8205fb38b130e3300d9872c6411/transformed/tasks-core-0.10.14/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/4ae32b6ec1a0660f285ae0eaa7efb173/transformed/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/4ae32b6ec1a0660f285ae0eaa7efb173/transformed/transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/b78fd41d469703e1dd3fa3883572d71a/transformed/startup-runtime-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/b78fd41d469703e1dd3fa3883572d71a/transformed/startup-runtime-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/gamerx/.gradle/caches/8.13/transforms/3f320f7948570317e8617800c6d99f3f/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /home/gamerx/.gradle/caches/8.13/transforms/3f320f7948570317e8617800c6d99f3f/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/gamerx/.gradle/caches/8.13/transforms/9c66eb63616f8e36817a777e066149fc/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/gamerx/.gradle/caches/8.13/transforms/9c66eb63616f8e36817a777e066149fc/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/f7a7e4be1a4adf4d5db6377560a1fd7e/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/f7a7e4be1a4adf4d5db6377560a1fd7e/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/a10bd5c90cb88823e5eedf7a66193bfc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/a10bd5c90cb88823e5eedf7a66193bfc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/fefd50a3a9fc9cd9fee79a27c29536ef/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/gamerx/.gradle/caches/8.13/transforms/fefd50a3a9fc9cd9fee79a27c29536ef/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/6eb06a04a4c98a16c6f4e197296c00ae/transformed/multiplatform-settings-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.russhwolf:multiplatform-settings-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/6eb06a04a4c98a16c6f4e197296c00ae/transformed/multiplatform-settings-debug/AndroidManifest.xml:5:5-44
+MERGED from [co.touchlab:kermit-android-debug:2.0.4] /home/gamerx/.gradle/caches/8.13/transforms/e21f9a137ee046fa109c7b7ecffb4733/transformed/kermit-debug/AndroidManifest.xml:5:5-44
+MERGED from [co.touchlab:kermit-android-debug:2.0.4] /home/gamerx/.gradle/caches/8.13/transforms/e21f9a137ee046fa109c7b7ecffb4733/transformed/kermit-debug/AndroidManifest.xml:5:5-44
+MERGED from [com.soywiz.korlibs.krypto:krypto-android:4.0.10] /home/gamerx/.gradle/caches/8.13/transforms/74d88270071977af0f9fd94af3ab1679/transformed/krypto-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.soywiz.korlibs.krypto:krypto-android:4.0.10] /home/gamerx/.gradle/caches/8.13/transforms/74d88270071977af0f9fd94af3ab1679/transformed/krypto-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [co.touchlab:kermit-core-android-debug:2.0.4] /home/gamerx/.gradle/caches/8.13/transforms/6104b65569660e15f411161a183d6935/transformed/kermit-core-debug/AndroidManifest.xml:5:5-44
+MERGED from [co.touchlab:kermit-core-android-debug:2.0.4] /home/gamerx/.gradle/caches/8.13/transforms/6104b65569660e15f411161a183d6935/transformed/kermit-core-debug/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/134971fdd8b60bb15dc32845a838ac3e/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/134971fdd8b60bb15dc32845a838ac3e/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/134971fdd8b60bb15dc32845a838ac3e/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:9:9-17:20
+MERGED from [io.github.jan-tennert.supabase:auth-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/f76014756a8ba72cae59b9c4ae6641f6/transformed/auth-kt-debug/AndroidManifest.xml:9:9-17:20
+MERGED from [io.github.jan-tennert.supabase:auth-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/f76014756a8ba72cae59b9c4ae6641f6/transformed/auth-kt-debug/AndroidManifest.xml:9:9-17:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/gamerx/.gradle/caches/8.13/transforms/9637f6b2614b0b60379590ae874c4bd0/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/gamerx/.gradle/caches/8.13/transforms/9637f6b2614b0b60379590ae874c4bd0/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/532bdba2c4bdd6c088df03c6e8387797/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/532bdba2c4bdd6c088df03c6e8387797/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:24:9-32:20
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/10a289bd8a82b9a119be7c0abb659d83/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:24:9-32:20
+MERGED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/10a289bd8a82b9a119be7c0abb659d83/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/b78fd41d469703e1dd3fa3883572d71a/transformed/startup-runtime-1.2.0/AndroidManifest.xml:24:9-28:34
+MERGED from [androidx.startup:startup-runtime:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/b78fd41d469703e1dd3fa3883572d71a/transformed/startup-runtime-1.2.0/AndroidManifest.xml:24:9-28:34
+	tools:node
+		ADDED from [io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:13:13-31
+	android:authorities
+		ADDED from [io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:11:13-68
+	android:exported
+		ADDED from [io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:10:13-67
+meta-data#io.github.jan.supabase.compose.auth.SupabaseInitializer
+ADDED from [io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:14:13-16:52
+	android:value
+		ADDED from [io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:16:17-49
+	android:name
+		ADDED from [io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:15:17-87
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:35:13-76
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/5ae0687bb0767942abbf628134e4e80e/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/5ae0687bb0767942abbf628134e4e80e/transformed/play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/5ae0687bb0767942abbf628134e4e80e/transformed/play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/5ae0687bb0767942abbf628134e4e80e/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/bf59764969dac5b83f6fa180b4cf1801/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/bf59764969dac5b83f6fa180b4cf1801/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/bf59764969dac5b83f6fa180b4cf1801/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+meta-data#io.github.jan.supabase.auth.SupabaseInitializer
+ADDED from [io.github.jan-tennert.supabase:auth-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/f76014756a8ba72cae59b9c4ae6641f6/transformed/auth-kt-debug/AndroidManifest.xml:14:13-16:52
+	android:value
+		ADDED from [io.github.jan-tennert.supabase:auth-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/f76014756a8ba72cae59b9c4ae6641f6/transformed/auth-kt-debug/AndroidManifest.xml:16:17-49
+	android:name
+		ADDED from [io.github.jan-tennert.supabase:auth-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/f76014756a8ba72cae59b9c4ae6641f6/transformed/auth-kt-debug/AndroidManifest.xml:15:17-79
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/gamerx/.gradle/caches/8.13/transforms/9637f6b2614b0b60379590ae874c4bd0/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/gamerx/.gradle/caches/8.13/transforms/9637f6b2614b0b60379590ae874c4bd0/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/gamerx/.gradle/caches/8.13/transforms/9637f6b2614b0b60379590ae874c4bd0/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/532bdba2c4bdd6c088df03c6e8387797/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/532bdba2c4bdd6c088df03c6e8387797/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/532bdba2c4bdd6c088df03c6e8387797/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.gamerx.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.gamerx.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/1801388dcb61fee74854da50878fe496/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/1801388dcb61fee74854da50878fe496/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/1801388dcb61fee74854da50878fe496/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/1801388dcb61fee74854da50878fe496/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/1801388dcb61fee74854da50878fe496/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+meta-data#com.russhwolf.settings.SettingsInitializer
+ADDED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/10a289bd8a82b9a119be7c0abb659d83/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/10a289bd8a82b9a119be7c0abb659d83/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [com.russhwolf:multiplatform-settings-no-arg-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/10a289bd8a82b9a119be7c0abb659d83/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:30:17-74
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:33:13-132
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

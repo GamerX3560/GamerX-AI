@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="cyan_primary">#FF00E5FF</color>
+    <color name="dark_bg">#FF0A0E1A</color>
+    <color name="dark_surface">#FF131829</color>
+    <color name="splash_bg">#FF0A0E1A</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="about">About</string>
+    <string name="ai_name">AI Name</string>
+    <string name="app_name">GamerX AI</string>
+    <string name="app_tagline">Your Intelligent AI Assistant</string>
+    <string name="attach_image">Attach Image</string>
+    <string name="cancel">Cancel</string>
+    <string name="chat_history">Chat History</string>
+    <string name="clear_data">Clear All Data</string>
+    <string name="confirm">Confirm</string>
+    <string name="copy">Copy</string>
+    <string name="data_control">Data Control</string>
+    <string name="delete_all">Delete All</string>
+    <string name="delete_chat">Delete Chat</string>
+    <string name="display_name">Display Name</string>
+    <string name="error_api">Something went wrong. Please try again.</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="export_data">Export Data</string>
+    <string name="greeting_message">Greeting Message</string>
+    <string name="new_chat">New Chat</string>
+    <string name="no_chats_yet">No conversations yet.\nTap + to start chatting!</string>
+    <string name="personalization">Personalization</string>
+    <string name="private_mode">Private Chat</string>
+    <string name="private_mode_desc">Messages won\'t be saved to history</string>
+    <string name="regenerate">Regenerate</string>
+    <string name="send">Send</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="type_message">Ask me anything…</string>
+    <string name="user_info">User Info</string>
+    <string name="voice_input">Voice Input</string>
+    <string name="voice_settings">Voice Settings</string>
+    <string name="welcome_message">Hey! I\'m GamerX AI 🚀\nHow can I help you today?</string>
+    <style name="Theme.GamerXAI" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/dark_bg</item>
+        <item name="android:navigationBarColor">@color/dark_bg</item>
+        <item name="android:windowBackground">@color/dark_bg</item>
+    </style>
+    <style name="Theme.GamerXAI.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/splash_bg</item>
+        <item name="postSplashScreenTheme">@style/Theme.GamerXAI</item>
+    </style>
+</resources>

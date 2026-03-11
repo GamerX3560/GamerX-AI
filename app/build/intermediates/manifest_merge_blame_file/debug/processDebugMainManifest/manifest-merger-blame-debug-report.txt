@@ -1,0 +1,309 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gamerx.ai"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:5:5-79
+12-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:6:5-71
+13-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:6:22-68
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:7:5-65
+14-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:7:22-62
+15    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+15-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:8:5-76
+15-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:8:22-73
+16    <uses-permission
+16-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:9:5-10:38
+17        android:name="android.permission.READ_EXTERNAL_STORAGE"
+17-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:9:22-77
+18        android:maxSdkVersion="32" />
+18-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:10:9-35
+19
+20    <permission
+20-->[androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+21        android:name="com.gamerx.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.gamerx.ai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:12:5-40:19
+27        android:name="com.gamerx.ai.GamerXAIApplication"
+27-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:13:9-44
+28        android:allowBackup="true"
+28-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:14:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.13.1] /home/gamerx/.gradle/caches/8.13/transforms/5c76d7f5debac6a759067e19014da8df/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="true"
+31-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:20:9-41
+32        android:icon="@mipmap/ic_launcher"
+32-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:15:9-43
+33        android:label="@string/app_name"
+33-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:17:9-41
+34        android:networkSecurityConfig="@xml/network_security_config"
+34-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:21:9-69
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:16:9-54
+36        android:supportsRtl="true"
+36-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:18:9-35
+37        android:theme="@style/Theme.GamerXAI" >
+37-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:19:9-46
+38        <activity
+38-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:23:9-38:20
+39            android:name="com.gamerx.ai.MainActivity"
+39-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:24:13-41
+40            android:exported="true"
+40-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:25:13-36
+41            android:theme="@style/Theme.GamerXAI.Splash"
+41-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:26:13-57
+42            android:windowSoftInputMode="adjustResize" >
+42-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:27:13-55
+43            <intent-filter>
+43-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:28:13-31:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:29:17-69
+44-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:29:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:30:17-77
+46-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:30:27-74
+47            </intent-filter>
+48            <intent-filter>
+48-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:32:13-37:29
+49                <action android:name="android.intent.action.VIEW" />
+49-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:33:17-69
+49-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:33:25-66
+50
+51                <category android:name="android.intent.category.DEFAULT" />
+51-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:34:17-76
+51-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:34:27-73
+52                <category android:name="android.intent.category.BROWSABLE" />
+52-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:35:17-78
+52-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:35:27-75
+53
+54                <data
+54-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:36:17-79
+55                    android:host="login-callback"
+55-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:36:47-76
+56                    android:scheme="gamerx" />
+56-->/home/gamerx/GamerXAI/app/src/main/AndroidManifest.xml:36:23-46
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->[androidx.compose.ui:ui-tooling-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/134971fdd8b60bb15dc32845a838ac3e/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+60            android:name="androidx.compose.ui.tooling.PreviewActivity"
+60-->[androidx.compose.ui:ui-tooling-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/134971fdd8b60bb15dc32845a838ac3e/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+61            android:exported="true" />
+61-->[androidx.compose.ui:ui-tooling-android:1.6.8] /home/gamerx/.gradle/caches/8.13/transforms/134971fdd8b60bb15dc32845a838ac3e/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+62
+63        <provider
+63-->[io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:9:9-17:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:10:13-67
+65            android:authorities="com.gamerx.ai.androidx-startup"
+65-->[io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:11:13-68
+66            android:exported="false" >
+66-->[io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:12:13-37
+67            <meta-data
+67-->[io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:14:13-16:52
+68                android:name="io.github.jan.supabase.compose.auth.SupabaseInitializer"
+68-->[io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:15:17-87
+69                android:value="androidx.startup" />
+69-->[io.github.jan-tennert.supabase:compose-auth-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/db68af6ec3d299f0a52a4122cbbcc8f7/transformed/compose-auth-debug/AndroidManifest.xml:16:17-49
+70            <meta-data
+70-->[io.github.jan-tennert.supabase:auth-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/f76014756a8ba72cae59b9c4ae6641f6/transformed/auth-kt-debug/AndroidManifest.xml:14:13-16:52
+71                android:name="io.github.jan.supabase.auth.SupabaseInitializer"
+71-->[io.github.jan-tennert.supabase:auth-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/f76014756a8ba72cae59b9c4ae6641f6/transformed/auth-kt-debug/AndroidManifest.xml:15:17-79
+72                android:value="androidx.startup" />
+72-->[io.github.jan-tennert.supabase:auth-kt-android-debug:3.0.0] /home/gamerx/.gradle/caches/8.13/transforms/f76014756a8ba72cae59b9c4ae6641f6/transformed/auth-kt-debug/AndroidManifest.xml:16:17-49
+73            <meta-data
+73-->[androidx.emoji2:emoji2:1.3.0] /home/gamerx/.gradle/caches/8.13/transforms/9637f6b2614b0b60379590ae874c4bd0/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+74-->[androidx.emoji2:emoji2:1.3.0] /home/gamerx/.gradle/caches/8.13/transforms/9637f6b2614b0b60379590ae874c4bd0/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+75                android:value="androidx.startup" />
+75-->[androidx.emoji2:emoji2:1.3.0] /home/gamerx/.gradle/caches/8.13/transforms/9637f6b2614b0b60379590ae874c4bd0/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.lifecycle:lifecycle-process:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/532bdba2c4bdd6c088df03c6e8387797/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/532bdba2c4bdd6c088df03c6e8387797/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:30:17-78
+78                android:value="androidx.startup" />
+78-->[androidx.lifecycle:lifecycle-process:2.8.6] /home/gamerx/.gradle/caches/8.13/transforms/532bdba2c4bdd6c088df03c6e8387797/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/10a289bd8a82b9a119be7c0abb659d83/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:29:13-31:52
+80                android:name="com.russhwolf.settings.SettingsInitializer"
+80-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/10a289bd8a82b9a119be7c0abb659d83/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:30:17-74
+81                android:value="androidx.startup" />
+81-->[com.russhwolf:multiplatform-settings-no-arg-android-debug:1.2.0] /home/gamerx/.gradle/caches/8.13/transforms/10a289bd8a82b9a119be7c0abb659d83/transformed/multiplatform-settings-no-arg-debug/AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+84                android:value="androidx.startup" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+85        </provider>
+86
+87        <service
+87-->[androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:24:9-32:19
+88            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+88-->[androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:25:13-94
+89            android:enabled="true"
+89-->[androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:26:13-35
+90            android:exported="false" >
+90-->[androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:27:13-37
+91            <meta-data
+91-->[androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:29:13-31:104
+92                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+92-->[androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:30:17-76
+93                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+93-->[androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:31:17-101
+94        </service>
+95
+96        <activity
+96-->[androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:34:9-41:20
+97            android:name="androidx.credentials.playservices.HiddenActivity"
+97-->[androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:35:13-76
+98            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+98-->[androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:36:13-87
+99            android:enabled="true"
+99-->[androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:37:13-35
+100            android:exported="false"
+100-->[androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:38:13-37
+101            android:fitsSystemWindows="true"
+101-->[androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:39:13-45
+102            android:theme="@style/Theme.Hidden" >
+102-->[androidx.credentials:credentials-play-services-auth:1.3.0-beta01] /home/gamerx/.gradle/caches/8.13/transforms/267753f483f57640e7a9226f8866347f/transformed/credentials-play-services-auth-1.3.0-beta01/AndroidManifest.xml:40:13-48
+103        </activity>
+104        <activity
+104-->[com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:23:9-27:75
+105            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+105-->[com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:24:13-93
+106            android:excludeFromRecents="true"
+106-->[com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:25:13-46
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:26:13-37
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:27:13-72
+109        <!--
+110            Service handling Google Sign-In user revocation. For apps that do not integrate with
+111            Google Sign-In, this service will never be started.
+112        -->
+113        <service
+113-->[com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:33:9-37:51
+114            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+114-->[com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:34:13-89
+115            android:exported="true"
+115-->[com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:35:13-36
+116            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+116-->[com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:36:13-107
+117            android:visibleToInstantApps="true" />
+117-->[com.google.android.gms:play-services-auth:21.1.1] /home/gamerx/.gradle/caches/8.13/transforms/2ee58f483f055a1071688ad18d80afba/transformed/play-services-auth-21.1.1/AndroidManifest.xml:37:13-48
+118
+119        <activity
+119-->[com.google.android.gms:play-services-base:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/5ae0687bb0767942abbf628134e4e80e/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+120            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+120-->[com.google.android.gms:play-services-base:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/5ae0687bb0767942abbf628134e4e80e/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+121            android:exported="false"
+121-->[com.google.android.gms:play-services-base:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/5ae0687bb0767942abbf628134e4e80e/transformed/play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.android.gms:play-services-base:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/5ae0687bb0767942abbf628134e4e80e/transformed/play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+123
+124        <meta-data
+124-->[com.google.android.gms:play-services-basement:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/bf59764969dac5b83f6fa180b4cf1801/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.android.gms:play-services-basement:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/bf59764969dac5b83f6fa180b4cf1801/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.android.gms:play-services-basement:18.3.0] /home/gamerx/.gradle/caches/8.13/transforms/bf59764969dac5b83f6fa180b4cf1801/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+127
+128        <service
+128-->[androidx.room:room-runtime:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/1801388dcb61fee74854da50878fe496/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+129            android:name="androidx.room.MultiInstanceInvalidationService"
+129-->[androidx.room:room-runtime:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/1801388dcb61fee74854da50878fe496/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+130            android:directBootAware="true"
+130-->[androidx.room:room-runtime:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/1801388dcb61fee74854da50878fe496/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+131            android:exported="false" />
+131-->[androidx.room:room-runtime:2.6.1] /home/gamerx/.gradle/caches/8.13/transforms/1801388dcb61fee74854da50878fe496/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+132        <service
+132-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:29:9-35:19
+133            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+133-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:30:13-103
+134            android:exported="false" >
+134-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:31:13-37
+135            <meta-data
+135-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:32:13-34:39
+136                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+136-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:33:17-94
+137                android:value="cct" />
+137-->[com.google.android.datatransport:transport-backend-cct:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/ed22d883b8e39467462ab25b74116aa1/transformed/transport-backend-cct-3.1.0/AndroidManifest.xml:34:17-36
+138        </service>
+139        <service
+139-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:26:9-30:19
+140            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+140-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:27:13-117
+141            android:exported="false"
+141-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:28:13-37
+142            android:permission="android.permission.BIND_JOB_SERVICE" >
+142-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:29:13-69
+143        </service>
+144
+145        <receiver
+145-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:32:9-34:40
+146            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+146-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:33:13-132
+147            android:exported="false" />
+147-->[com.google.android.datatransport:transport-runtime:3.1.0] /home/gamerx/.gradle/caches/8.13/transforms/bf03a33061f358d008df9679899c0ca9/transformed/transport-runtime-3.1.0/AndroidManifest.xml:34:13-37
+148        <receiver
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+149            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+150            android:directBootAware="false"
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+151            android:enabled="true"
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+152            android:exported="true"
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+153            android:permission="android.permission.DUMP" >
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+154            <intent-filter>
+154-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+155                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+155-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+155-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+156            </intent-filter>
+157            <intent-filter>
+157-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+158                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+158-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+158-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+159            </intent-filter>
+160            <intent-filter>
+160-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+161                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+161-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+161-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+162            </intent-filter>
+163            <intent-filter>
+163-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+164                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+164-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+164-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/gamerx/.gradle/caches/8.13/transforms/b6a327da00a35b957a45ff24764b79d6/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+165            </intent-filter>
+166        </receiver>
+167    </application>
+168
+169</manifest>
