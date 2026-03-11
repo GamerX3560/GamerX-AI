@@ -26,6 +26,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.takeWhile
 import android.content.Context
+import com.gamerx.ai.util.ShellExecutor
 
 @Serializable
 data class UserProfile(
@@ -60,14 +61,11 @@ class ChatRepository(
                     is io.github.jan.supabase.auth.status.SessionStatus.Authenticated -> {
                         userId = status.session.user?.id
                         fetchUserContext()
-                        // One-time sync on login/app open
                         syncRemoteConversations()
                     }
                     is io.github.jan.supabase.auth.status.SessionStatus.NotAuthenticated -> {
                         userId = null
                         userContext = null
-                        // Optional: Clear local DB on logout to protect privacy.
-                        // conversationDao.deleteAllConversations()
                     }
                     else -> {}
                 }
@@ -120,7 +118,6 @@ class ChatRepository(
             conversationDao.getAllConversations(),
             _privateConversations
         ) { dbList, privateList ->
-            // In Phase 7, we want private conversations to be fully ephemeral and not crowd the persistent sidebar list
             dbList.sortedByDescending { it.updatedAt }
         }
     }
@@ -309,11 +306,38 @@ class ChatRepository(
             }
         }.toMutableList()
 
+        val useRoot = preferences.useRoot.first()
+
+        val shellBlock = buildString {
+            appendLine()
+            appendLine("## SYSTEM SHELL ACCESS")
+            appendLine("You have DIRECT access to an Android shell on the user's device.")
+            appendLine("When the user's request requires ANY system-level interaction (listing files, opening apps, checking battery, managing processes, modifying system settings, sending texts, installing/removing apps, scheduling tasks, spoofing values, changing CPU governors, rebooting, or ANY other shell operation), you MUST execute it yourself.")
+            appendLine()
+            appendLine("To execute a command, output EXACTLY this fenced block:")
+            appendLine("```SHELL_EXEC")
+            appendLine("command_here")
+            appendLine("```")
+            appendLine()
+            appendLine("Rules:")
+            if (useRoot) {
+                appendLine("- You have ROOT (su) access. For root-only operations, prefix: su -c \"command\"")
+            } else {
+                appendLine("- Root access is NOT enabled. Only use standard shell commands. If root is needed, tell the user to enable Root Access in Settings.")
+            }
+            appendLine("- You may emit MULTIPLE SHELL_EXEC blocks in one response for multi-step tasks")
+            appendLine("- After each block is executed, you receive the stdout/stderr as a [SHELL OUTPUT] system message")
+            appendLine("- Then provide a clean human-readable summary of the results")
+            appendLine("- NEVER tell the user to run commands manually. YOU execute them directly")
+            appendLine("- For dangerous operations (delete, format, reboot), warn the user but still execute if they explicitly asked")
+            appendLine("- If a command fails, analyze the error and try an alternative")
+            appendLine("- Always prefer concise, efficient commands")
+        }
+
         val basePrompt = "You are GamerX AI, a highly intelligent and helpful expert assistant. " +
-            "Provide structured, beautiful responses. Break down explanations into clear bullet points. " +
-            "Use strategic emojis to make the text engaging. ALWAYS use Markdown. " +
-            "If asked about factual info, summarize cleanly. " +
-            "ALWAYS output code within terminal-style triple backticks highlighting the correct language."
+            "Provide structured, beautiful responses using Markdown with bullet points and strategic emojis. " +
+            "ALWAYS output code in triple-backtick fenced blocks with correct language tags." +
+            shellBlock
         
         val systemPrompt = if (!userContext.isNullOrBlank()) {
             "$basePrompt\n\nUser Context: $userContext"
@@ -324,9 +348,13 @@ class ChatRepository(
         return history
     }
 
+    private val shellBlockPattern = Regex("```SHELL_EXEC\\s*\\n([\\s\\S]*?)\\n\\s*```")
+    private val MAX_AGENT_ROUNDS = 5
+
     fun streamResponse(history: List<NvidiaService.ChatMessage>): Flow<String> = flow {
         val isLocal = preferences.isLocalMode.first()
         if (isLocal) {
+            // Local LLM path (no shell execution in local mode)
             val modelId = preferences.localModelId.first() ?: "qwen_0.8b"
             val dir = context.getExternalFilesDir(null) ?: context.filesDir
             val file = java.io.File(dir, "$modelId.gguf")
@@ -334,22 +362,17 @@ class ChatRepository(
                 emit("\n*[System Error: Missing Local Model. Please go to Settings > Local LLM and download a model.]*")
                 return@flow
             }
-            
-            // Gracefully catch .gguf format limitation since MediaPipe requires .bin ODML
             if (file.extension == "gguf") {
-                emit("\n*[System Error: GamerX AI currently uses Google MediaPipe for local inference, which requires specific .bin Odml models. Running raw .gguf files directly requires a pending Llama.cpp C++ integration update. Please switch to Online Mode or download a compatible model.]*")
+                emit("\n*[System Error: .gguf files require Llama.cpp integration. Please switch to Online Mode.]*")
                 return@flow
             }
-
             if (llmInference == null || currentLlmModelId != modelId) {
-                emit("*[System: Initializing edge inference engine `$modelId` into RAM...]*\n\n")
+                emit("*[System: Initializing edge inference engine...]*\n\n")
                 try {
                     val options = com.google.mediapipe.tasks.genai.llminference.LlmInference.LlmInferenceOptions.builder()
                         .setModelPath(file.absolutePath)
                         .setMaxTokens(1024)
-                        .setResultListener { partial, done ->
-                            localLlmOutput.tryEmit(Pair(partial ?: "", done))
-                        }
+                        .setResultListener { partial, done -> localLlmOutput.tryEmit(Pair(partial ?: "", done)) }
                         .build()
                     llmInference = com.google.mediapipe.tasks.genai.llminference.LlmInference.createFromOptions(context, options)
                     currentLlmModelId = modelId
@@ -358,27 +381,27 @@ class ChatRepository(
                     return@flow
                 }
             }
-            
+            val imEnd = "<" + "|im_end|" + ">"
+            val eot = "<" + "|endoftext|" + ">"
             val formatted = buildString {
                 history.forEach {
-                    if (it.role == "system") append("<|im_start|>system\n${it.content}<|im_end|>\n")
-                    if (it.role == "user") append("<|im_start|>user\n${it.content}<|im_end|>\n")
-                    if (it.role == "assistant") append("<|im_start|>assistant\n${it.content}<|im_end|>\n")
+                    val imStart = "<" + "|im_start|" + ">"
+                    when (it.role) {
+                        "system" -> append("${imStart}system\n${it.content}${imEnd}\n")
+                        "user" -> append("${imStart}user\n${it.content}${imEnd}\n")
+                        "assistant" -> append("${imStart}assistant\n${it.content}${imEnd}\n")
+                    }
                 }
-                append("<|im_start|>assistant\n")
+                val imStart = "<" + "|im_start|" + ">"
+                append("${imStart}assistant\n")
             }
-
             try {
                 llmInference!!.generateResponseAsync(formatted)
-                
                 var doneReceived = false
-                
                 localLlmOutput.takeWhile { !doneReceived }.collect { pair ->
-                    val text = pair.first
-                    val done = pair.second
-                    if (done) doneReceived = true
-                    if (text.isNotEmpty()) {
-                        val cleaned = text.replace("<|im_end|>", "").replace("<|endoftext|>", "")
+                    if (pair.second) doneReceived = true
+                    if (pair.first.isNotEmpty()) {
+                        val cleaned = pair.first.replace(imEnd, "").replace(eot, "")
                         if (cleaned.isNotEmpty()) emit(cleaned)
                     }
                 }
@@ -386,7 +409,67 @@ class ChatRepository(
                 emit("\n*[System Error during inference: ${e.message}]*")
             }
         } else {
-            nvidiaService.streamChat(history).collect { emit(it) }
+            // ===== ONLINE MODE WITH AGENTIC SHELL EXECUTION =====
+            val useRoot = preferences.useRoot.first()
+            val agentHistory = history.toMutableList()
+            var round = 0
+
+            while (round < MAX_AGENT_ROUNDS) {
+                round++
+                val fullResponse = StringBuilder()
+
+                // Stream the AI response
+                nvidiaService.streamChat(agentHistory).collect { chunk ->
+                    fullResponse.append(chunk)
+                    emit(chunk)
+                }
+
+                val responseText = fullResponse.toString()
+
+                // Check if the AI emitted any SHELL_EXEC blocks
+                val matches = shellBlockPattern.findAll(responseText).toList()
+                if (matches.isEmpty()) {
+                    // No commands to execute, we're done
+                    break
+                }
+
+                // Execute each command block
+                val shellOutputs = StringBuilder()
+                for (match in matches) {
+                    val command = match.groupValues[1].trim()
+                    if (command.isEmpty()) continue
+
+                    emit("\n\n> \u26a1 *Executing: `$command`*\n\n")
+
+                    val result = ShellExecutor.execute(command, useRoot)
+
+                    val outputBlock = buildString {
+                        appendLine("```")
+                        if (result.stdout.isNotBlank()) appendLine(result.stdout)
+                        if (result.stderr.isNotBlank()) appendLine("[stderr] ${result.stderr}")
+                        if (result.timedOut) appendLine("[TIMED OUT]")
+                        appendLine("Exit code: ${result.exitCode} | Duration: ${result.durationMs}ms")
+                        appendLine("```")
+                    }
+
+                    emit(outputBlock)
+                    shellOutputs.appendLine("[SHELL OUTPUT for command: $command]")
+                    if (result.stdout.isNotBlank()) shellOutputs.appendLine(result.stdout)
+                    if (result.stderr.isNotBlank()) shellOutputs.appendLine("[stderr] ${result.stderr}")
+                    shellOutputs.appendLine("[Exit code: ${result.exitCode}]")
+                }
+
+                // Feed the AI's response + shell outputs back into the conversation
+                agentHistory.add(NvidiaService.ChatMessage("assistant", responseText))
+                agentHistory.add(NvidiaService.ChatMessage("system", 
+                    "[SHELL OUTPUT]\n${shellOutputs}\n\nNow interpret and summarize the results for the user in a clean, readable format."))
+
+                emit("\n\n")
+            }
+
+            if (round >= MAX_AGENT_ROUNDS) {
+                emit("\n*[System: Maximum execution rounds reached. Stopping.]*")
+            }
         }
     }
 

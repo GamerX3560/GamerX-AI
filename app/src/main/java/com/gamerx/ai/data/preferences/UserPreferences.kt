@@ -35,6 +35,9 @@ class UserPreferences(private val context: Context) {
         // Privacy
         val PRIVATE_MODE = booleanPreferencesKey("private_mode")
 
+        // Root Access
+        val USE_ROOT = booleanPreferencesKey("use_root")
+
         // Data
         val TOTAL_MESSAGES_SENT = intPreferencesKey("total_messages_sent")
     }
@@ -183,6 +186,17 @@ class UserPreferences(private val context: Context) {
     suspend fun setPrivateMode(enabled: Boolean) {
         context.dataStore.edit { prefs ->
             prefs[PRIVATE_MODE] = enabled
+        }
+    }
+
+    // Root Access
+    val useRoot: Flow<Boolean> = context.dataStore.data.map { prefs ->
+        prefs[USE_ROOT] ?: false
+    }
+
+    suspend fun setUseRoot(enabled: Boolean) {
+        context.dataStore.edit { prefs ->
+            prefs[USE_ROOT] = enabled
         }
     }
 

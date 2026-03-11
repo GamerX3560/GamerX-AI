@@ -19,6 +19,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.gamerx.ai.ui.theme.*
+import com.gamerx.ai.data.preferences.UserPreferences
+import androidx.compose.ui.platform.LocalContext
+import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -149,29 +152,34 @@ fun SettingsScreen(
                 
                 var showRootErr by remember { mutableStateOf(false) }
                 val coroutineScope = rememberCoroutineScope()
+                val rootContext = LocalContext.current
+                val rootPrefs = remember { UserPreferences(rootContext) }
+                val useRoot by rootPrefs.useRoot.collectAsState(initial = false)
                 SettingsItem(
                     icon = Icons.Default.AdminPanelSettings,
                     title = "Root Access",
-                    subtitle = "Enable advanced system features",
-                    onClick = {
-                        try {
-                            val process = Runtime.getRuntime().exec(arrayOf("su", "-c", "echo root"))
-                            val exitValue = process.waitFor()
-                            if (exitValue != 0) showRootErr = true
-                        } catch(e: Exception) {
-                            showRootErr = true
-                        }
-                    },
+                    subtitle = if (useRoot) "Root shell enabled for AI" else "Enable advanced system features",
+                    onClick = {},
                     trailing = {
                         Switch(
-                            checked = false, 
-                            onCheckedChange = { 
-                                try {
-                                    val process = Runtime.getRuntime().exec(arrayOf("su", "-c", "echo root"))
-                                    val exitValue = process.waitFor()
-                                    if (exitValue != 0) showRootErr = true
-                                } catch(e: Exception) {
-                                    showRootErr = true
+                            checked = useRoot, 
+                            onCheckedChange = { enabled ->
+                                if (enabled) {
+                                    coroutineScope.launch(kotlinx.coroutines.Dispatchers.IO) {
+                                        try {
+                                            val process = Runtime.getRuntime().exec(arrayOf("su", "-c", "echo root"))
+                                            val exitValue = process.waitFor()
+                                            if (exitValue == 0) {
+                                        rootPrefs.setUseRoot(true)
+                                            } else {
+                                                showRootErr = true
+                                            }
+                                        } catch(e: Exception) {
+                                            showRootErr = true
+                                        }
+                                    }
+                                } else {
+                                    coroutineScope.launch { rootPrefs.setUseRoot(false) }
                                 }
                             },
                             colors = SwitchDefaults.colors(
