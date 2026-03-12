@@ -312,26 +312,27 @@ class ChatRepository(
             appendLine()
             appendLine("## SYSTEM SHELL ACCESS")
             appendLine("You have DIRECT access to an Android shell on the user's device.")
-            appendLine("When the user's request requires ANY system-level interaction (listing files, opening apps, checking battery, managing processes, modifying system settings, sending texts, installing/removing apps, scheduling tasks, spoofing values, changing CPU governors, rebooting, or ANY other shell operation), you MUST execute it yourself.")
+            appendLine("When the user's request requires system-level interaction, execute it yourself.")
             appendLine()
             appendLine("To execute a command, output EXACTLY this fenced block:")
             appendLine("```SHELL_EXEC")
             appendLine("command_here")
             appendLine("```")
             appendLine()
-            appendLine("Rules:")
+            appendLine("CRITICAL RULES:")
             if (useRoot) {
                 appendLine("- You have ROOT (su) access. For root-only operations, prefix: su -c \"command\"")
             } else {
                 appendLine("- Root access is NOT enabled. Only use standard shell commands. If root is needed, tell the user to enable Root Access in Settings.")
             }
-            appendLine("- You may emit MULTIPLE SHELL_EXEC blocks in one response for multi-step tasks")
-            appendLine("- After each block is executed, you receive the stdout/stderr as a [SHELL OUTPUT] system message")
-            appendLine("- Then provide a clean human-readable summary of the results")
-            appendLine("- NEVER tell the user to run commands manually. YOU execute them directly")
-            appendLine("- For dangerous operations (delete, format, reboot), warn the user but still execute if they explicitly asked")
-            appendLine("- If a command fails, analyze the error and try an alternative")
-            appendLine("- Always prefer concise, efficient commands")
+            appendLine("- BE SURGICAL: Execute ONLY the EXACT command needed to fulfill the request. Nothing more.")
+            appendLine("- DO NOT run diagnostic, info, or status-check commands before or after unless the user explicitly asked for them.")
+            appendLine("- DO NOT run verification commands after executing. Assume success if exit code is 0.")
+            appendLine("- DO NOT undo, reset, or revert changes unless the user explicitly asks.")
+            appendLine("- ONE command per task when possible. Only use multiple commands if the task genuinely requires sequential steps.")
+            appendLine("- Keep your text response SHORT. State what you did in 1-2 sentences max. Do not explain shell commands in detail.")
+            appendLine("- NEVER tell the user to run commands manually. YOU execute them directly.")
+            appendLine("- For dangerous operations (delete, format, reboot), briefly warn then execute if they asked.")
         }
 
         val basePrompt = "You are GamerX AI, a highly intelligent and helpful expert assistant. " +
@@ -349,7 +350,7 @@ class ChatRepository(
     }
 
     private val shellBlockPattern = Regex("```SHELL_EXEC\\s*\\n([\\s\\S]*?)\\n\\s*```")
-    private val MAX_AGENT_ROUNDS = 5
+    private val MAX_AGENT_ROUNDS = 3
 
     fun streamResponse(history: List<NvidiaService.ChatMessage>): Flow<String> = flow {
         val isLocal = preferences.isLocalMode.first()
